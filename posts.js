@@ -23,7 +23,7 @@ window.POSTS = [
   },
   {
     id: "007",
-    date: "2026-07-28",
+    date: "2026-07-22",
     tag: "超能力",
     cover: "covers/007.svg",
     title: "別讓學校、考試、或「這個又不會考」把你的好奇心關掉",
@@ -33,7 +33,7 @@ window.POSTS = [
   },
   {
     id: "006",
-    date: "2026-07-27",
+    date: "2026-07-22",
     tag: "超能力",
     cover: "covers/006.svg",
     title: "第一個超能力：觀察力——別人在看，你在看見",
@@ -62,7 +62,7 @@ window.POSTS = [
   },
   {
     id: "005",
-    date: "2026-07-26",
+    date: "2026-07-22",
     tag: "應變",
     cover: "covers/005.svg",
     title: "罩子放亮點：冷靜的人才有得選",
@@ -87,7 +87,7 @@ window.POSTS = [
   },
   {
     id: "004",
-    date: "2026-07-25",
+    date: "2026-07-22",
     tag: "金錢",
     cover: "covers/004.svg",
     title: "用錢的智慧",
@@ -110,7 +110,7 @@ window.POSTS = [
   },
   {
     id: "003",
-    date: "2026-07-24",
+    date: "2026-07-22",
     tag: "慾望",
     cover: "covers/003.svg",
     title: "把慾望變成你的引擎",
@@ -131,7 +131,7 @@ window.POSTS = [
   },
   {
     id: "002",
-    date: "2026-07-23",
+    date: "2026-07-22",
     tag: "慾望",
     cover: "covers/002.svg",
     title: "越想要，越容易失望",
