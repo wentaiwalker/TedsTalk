@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#191c3a"/>
+      <stop offset="1" stop-color="#6a3d18"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.36" r="0.55">
+      <stop offset="0" stop-color="#ffc23d" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffc23d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#g)"/>
+  <circle cx="300" cy="245" r="235" fill="url(#glow)"/>
+  <!-- series badge -->
+  <g transform="translate(430,64)">
+    <rect x="0" y="0" width="118" height="66" rx="14" fill="#ffc23d"/>
+    <text x="59" y="27" text-anchor="middle" font-family="PingFang TC,sans-serif" font-size="16" font-weight="800" fill="#2a1c04">超能力</text>
+    <text x="59" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="800" fill="#2a1c04">#2</text>
+  </g>
+  <!-- lightbulb with ? -->
+  <g transform="translate(300,240)">
+    <path d="M0,-92 C48,-92 82,-58 82,-16 C82,10 66,30 50,44 C44,49 42,56 42,64 L-42,64 C-42,56 -44,49 -50,44 C-66,30 -82,10 -82,-16 C-82,-58 -48,-92 0,-92 Z" fill="#ffc23d" opacity="0.95"/>
+    <rect x="-34" y="70" width="68" height="16" rx="6" fill="#ffffff" opacity="0.9"/>
+    <rect x="-26" y="92" width="52" height="14" rx="6" fill="#ffffff" opacity="0.75"/>
+    <text x="0" y="6" text-anchor="middle" font-family="Arial,sans-serif" font-size="86" font-weight="800" fill="#2a1c04">?</text>
+  </g>
+  <text x="56" y="470" font-family="PingFang TC,Microsoft JhengHei,sans-serif" font-size="40" font-weight="700" fill="#ffe0a3">第二個超能力</text>
+  <text x="56" y="556" font-family="PingFang TC,Microsoft JhengHei,sans-serif" font-size="76" font-weight="800" fill="#ffffff">思考的技術</text>
+  <rect x="58" y="596" width="120" height="8" rx="4" fill="#ffc23d"/>
+  <text x="58" y="666" font-family="PingFang TC,Microsoft JhengHei,sans-serif" font-size="25" font-weight="600" fill="#ffffff" opacity="0.95">把「為什麼」當成一種樂趣</text>
+  <text x="58" y="726" font-family="PingFang TC,Microsoft JhengHei,sans-serif" font-size="20" fill="#ffffff" opacity="0.7">TedsTalk 超能力系列</text>
+</svg>

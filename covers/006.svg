@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#191c3a"/>
+      <stop offset="1" stop-color="#4a2568"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#22e0d0" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#22e0d0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#g)"/>
+  <circle cx="300" cy="250" r="240" fill="url(#glow)"/>
+  <!-- series badge -->
+  <g transform="translate(430,64)">
+    <rect x="0" y="0" width="118" height="66" rx="14" fill="#22e0d0"/>
+    <text x="59" y="27" text-anchor="middle" font-family="PingFang TC,sans-serif" font-size="16" font-weight="800" fill="#12143a">超能力</text>
+    <text x="59" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="800" fill="#12143a">#1</text>
+  </g>
+  <!-- magnifying glass -->
+  <g transform="translate(300,258)" fill="none" stroke="#22e0d0" stroke-width="12" stroke-linecap="round">
+    <circle cx="-14" cy="-14" r="70"/>
+    <line x1="38" y1="38" x2="86" y2="86"/>
+    <circle cx="-14" cy="-14" r="70" fill="#22e0d0" fill-opacity="0.10" stroke="none"/>
+    <circle cx="-36" cy="-36" r="12" fill="#ffffff" stroke="none" opacity="0.9"/>
+  </g>
+  <text x="56" y="452" font-family="PingFang TC,Microsoft JhengHei,sans-serif" font-size="40" font-weight="700" fill="#9be9e0">第一個超能力</text>
+  <text x="56" y="536" font-family="PingFang TC,Microsoft JhengHei,sans-serif" font-size="88" font-weight="800" fill="#ffffff">觀察力</text>
+  <rect x="58" y="576" width="120" height="8" rx="4" fill="#22e0d0"/>
+  <text x="58" y="648" font-family="PingFang TC,Microsoft JhengHei,sans-serif" font-size="25" font-weight="600" fill="#ffffff" opacity="0.95">別人在看，你在看見</text>
+  <text x="58" y="712" font-family="PingFang TC,Microsoft JhengHei,sans-serif" font-size="20" fill="#ffffff" opacity="0.7">TedsTalk 超能力系列</text>
+</svg>

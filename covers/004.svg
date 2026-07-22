@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2fa36b"/>
+      <stop offset="1" stop-color="#e0b73a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#g)"/>
+  <g opacity="0.15" fill="#ffffff">
+    <circle cx="90" cy="140" r="140"/>
+    <circle cx="515" cy="695" r="120"/>
+  </g>
+  <!-- coin stack with sprout -->
+  <g transform="translate(300,225)">
+    <g fill="#ffffff" opacity="0.95">
+      <ellipse cx="0" cy="60" rx="70" ry="20"/>
+      <rect x="-70" y="36" width="140" height="24" opacity="0.85"/>
+      <ellipse cx="0" cy="36" rx="70" ry="20"/>
+      <rect x="-70" y="12" width="140" height="24" opacity="0.85"/>
+      <ellipse cx="0" cy="12" rx="70" ry="20"/>
+    </g>
+    <text x="0" y="20" text-anchor="middle" font-family="PingFang TC,sans-serif" font-size="30" font-weight="800" fill="#2fa36b">$</text>
+    <!-- sprout -->
+    <path d="M0,12 C0,-30 0,-45 0,-60" stroke="#ffffff" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <path d="M0,-38 C-26,-46 -40,-30 -34,-14 C-14,-16 -2,-26 0,-38 Z" fill="#eafff2"/>
+    <path d="M0,-52 C22,-60 38,-46 32,-30 C14,-32 2,-42 0,-52 Z" fill="#ffffff"/>
+  </g>
+  <text x="58" y="415" font-family="PingFang TC,Microsoft JhengHei,sans-serif" font-size="66" font-weight="800" fill="#ffffff">用錢的</text>
+  <text x="58" y="493" font-family="PingFang TC,Microsoft JhengHei,sans-serif" font-size="66" font-weight="800" fill="#fffbe6">智慧</text>
+  <rect x="58" y="531" width="120" height="8" rx="4" fill="#ffffff" opacity="0.85"/>
+  <text x="58" y="603" font-family="PingFang TC,Microsoft JhengHei,sans-serif" font-size="26" font-weight="600" fill="#ffffff" opacity="0.95">TedsTalk 觀點 · 第 4 篇</text>
+  <text x="58" y="671" font-family="PingFang TC,Microsoft JhengHei,sans-serif" font-size="21" fill="#ffffff" opacity="0.85">量入為出 × 儲蓄 × 投資自己</text>
+</svg>

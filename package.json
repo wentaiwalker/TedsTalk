@@ -1,0 +1,12 @@
+{
+  "name": "tedstalk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TedsTalk — 爸爸想跟你說的事（靜態網站建置）",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TedsTalk — 爸爸想跟你說的事</title>
+<meta name="description" content="每天一個觀念，一位爸爸寫給孩子的話。">
+<link rel="stylesheet" href="style.css">
+<script data-goatcounter="https://tedstalk.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <div class="logo">TedsTalk<span>爸爸想跟你說的事</span></div>
+    <div class="slogan">每天一個觀念 · 一次一點點</div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="grid" id="grid"></div>
+</main>
+
+<footer>TedsTalk · 寫給我最在乎的兩個人</footer>
+
+<script src="posts-index.js"></script>
+<script>
+  const grid = document.getElementById('grid');
+  const LIST = window.POSTS_INDEX || [];
+  if(!LIST.length){
+    grid.innerHTML = '<p class="empty">還沒有文章，很快就有 :)</p>';
+  } else {
+    grid.innerHTML = LIST.map(p => `
+      <a class="card" href="p/${p.id}.html">
+        <div class="covwrap">
+          <img class="cov" src="${p.cover}" alt="${p.title}">
+          ${p.locked ? '<span class="lockbadge">🔒</span>' : ''}
+        </div>
+        <div class="body">
+          <div class="t">${p.locked ? '🔒 ' : ''}${p.title}</div>
+          <div class="h">${p.hook}</div>
+          <div class="meta"><span class="chip">${p.tag}</span><span>${p.date}</span></div>
+        </div>
+      </a>
+    `).join('');
+  }
+</script>
+</body>
+</html>
