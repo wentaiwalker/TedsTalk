@@ -1,6 +1,15 @@
 // 由 build.js 自動產生，勿手改
 window.POSTS_INDEX = [
  {
+  "id": "009",
+  "date": "2026-10-01",
+  "tag": "學習",
+  "cover": "covers/009.svg",
+  "title": "領先的人，一定比較少",
+  "hook": "學校的方法是為一般人設計的。AI 來了，你可以自己先換一種學法。",
+  "locked": false
+ },
+ {
   "id": "008",
   "date": "2026-07-22",
   "tag": "超能力",
